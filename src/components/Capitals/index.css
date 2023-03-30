@@ -1,0 +1,108 @@
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-capital-card {
+  min-height: 30vh;
+  max-height: 50vh;
+  width: 50%;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-capital-heading {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: bold;
+  width: 80%;
+}
+
+.select-card {
+  width: 80%;
+}
+
+.select-element {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  padding-left: 10px;
+  min-width: 100px;
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid #cbd2d9;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.country-card {
+  width: 80%;
+}
+
+.country {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .country-capital-card {
+    width: 90%;
+  }
+
+  .country-capital-heading {
+    font-size: 28px;
+    width: 90%;
+  }
+
+  .select-card {
+    width: 90%;
+  }
+
+  .select-element {
+    font-size: 12px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+
+  .country-card {
+    width: 90%;
+  }
+
+  .country {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .country-capital-heading {
+    font-size: 35px;
+  }
+
+  .select-element {
+    font-size: 15px;
+  }
+
+  .label {
+    font-size: 15px;
+  }
+
+  .country {
+    font-size: 25px;
+  }
+}
